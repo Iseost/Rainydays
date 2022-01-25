@@ -1,0 +1,49 @@
+/******Homepage******/
+
+header {
+  background-color: #f9f9f9;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  display: flex;
+  position: sticky;
+}
+
+.navigation {
+  color: #f2a20c;
+}
+
+.section2 {
+  background-color: #aabdbf;
+  padding: 50px;
+}
+
+.cta_button {
+  background-color: #d97904;
+  border: none;
+  color: #2f3840;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+.section3 {
+  background-color: #c9d4d5;
+  padding: 80px;
+}
+
+.cta__button {
+  background-color: #d97904;
+  border: #707070;
+  color: #0a3641;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 5px;
+}
