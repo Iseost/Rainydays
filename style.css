@@ -1,18 +1,38 @@
 /******Homepage******/
 
+body {
+  display: grid;
+}
+
 header {
   background-color: #f9f9f9;
 }
 
-img {
-  width: 400px;
+.logo {
+  width: 20%;
   height: auto;
-  display: flex;
-  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.navigation,
+h1,
+.cta_button,
+.cta__button {
+  font-family: "oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: large;
 }
 
 .navigation {
   color: #f2a20c;
+  padding-left: 30px;
+}
+
+.navigation_icon {
+  color: #f2a20c;
+  padding-left: 30px;
 }
 
 .section2 {
@@ -20,27 +40,60 @@ img {
   padding: 50px;
 }
 
+h1 {
+  color: #0a3641;
+}
+
 .cta_button {
   background-color: #d97904;
-  border: none;
-  color: #2f3840;
-  padding: 5px 20px;
+  color: #0a3641;
+  border: #123d47;
+  padding: 10px 30px;
+  margin: 15px;
   text-align: center;
   text-decoration-line: none;
+}
+
+.image_section2 {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.rox > * {
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  margin: 10px;
 }
 
 .section3 {
   background-color: #c9d4d5;
   padding: 80px;
+  margin: auto;
 }
 
 .cta__button {
   background-color: #d97904;
-  border: #707070;
   color: #0a3641;
-  padding: 5px 10px;
+  border: #123d47;
+  padding: 15px 20px;
   text-align: center;
   text-decoration-line: none;
+}
+
+.products {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 10% 75%;
 }
 
 footer {
