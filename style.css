@@ -45,19 +45,21 @@ body {
   background-color: #aabdbf;
   margin: auto;
   padding: 0;
+  height: 400px;
   width: auto;
+  position: relative;
 }
 
 h1 {
   color: #30555e;
-  padding-left: 15em;
+  padding-left: 10em;
   padding-top: 6em;
   margin: 0;
 }
 
 .flex-cta1 {
   display: flex;
-  padding-left: 18em;
+  padding-left: 13em;
 }
 
 .cta_button,
@@ -76,22 +78,24 @@ h1 {
   padding: 15px 20px;
   position: absolute;
   top: 50%;
-  right: 50% 50%;
-  left: 50% 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .flex-container2 {
   display: flex;
-  justify-content: center;
+  position: absolute;
+  left: 40%;
+  top: 10%;
 }
 
 .image_section2 {
+  display: flex;
   width: auto;
   padding: 10px;
   height: 300px;
   object-fit: cover;
   border-radius: 20px 20px;
-  position: relative;
 }
 
 .section3 {
@@ -101,22 +105,14 @@ h1 {
   height: 800px;
 }
 
-.flex-cta2 {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-}
-
 .flex-container3 {
   display: flex;
-  justify-content: center;
-  position: relative;
-  top: 25%;
+  position: absolute;
 }
 
 .products,
-.products1 {
+.products1,
+.imageproduckts {
   width: 300px;
   height: 300px;
   padding: 40px;
@@ -135,3 +131,22 @@ footer {
 
 @media (min-width: 600px) and (max-width: 1200px) {
 }
+
+/******Men******/
+
+.section2men {
+  height: 1000px;
+}
+
+.imageproduckts {
+  height: 400px;
+}
+
+.image-fade {
+  filter: blur(2px);
+  filter: brightness(2px);
+}
+
+/******Woman******/
+
+/******Kids******/
