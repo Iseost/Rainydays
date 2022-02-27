@@ -19,6 +19,7 @@ h2 {
 .navigation,
 h1,
 h2,
+h3,
 p,
 .cta_button,
 .cta__button {
@@ -109,7 +110,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 1em;
+  padding-top: 5em;
 }
 
 .cta__button {
@@ -173,16 +174,26 @@ p {
 }
 
 .image-fade {
-  filter: blur(2px);
+  opacity: 0.2;
   filter: brightness(2px);
 }
 
-.flex-container4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.grid-container,
+.grid-item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 0;
 }
 
-/******Woman******/
+.image1product {
+  position: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
 
-/******Kids******/
+h3 {
+  text-align: start;
+  padding-left: 49em;
+  padding-top: 2em;
+}
