@@ -47,6 +47,10 @@ body {
   float: right;
 }
 
+.section2 {
+  position: relative;
+}
+
 .section2,
 .section2men {
   background-color: #aabdbf;
@@ -54,7 +58,6 @@ body {
   padding: 0;
   height: 400px;
   width: auto;
-  position: relative;
 }
 
 h1,
@@ -137,10 +140,8 @@ h2 {
 
 footer {
   background-color: #f9f9f9;
-  margin: auto;
-}
-
-@media (min-width: 600px) and (max-width: 1200px) {
+  margin: 0;
+  padding: 0;
 }
 
 /******Men******/
@@ -166,7 +167,8 @@ p {
 }
 
 .section2men {
-  height: 1000px;
+  height: 1200px;
+  margin: auto;
 }
 
 .imageproduckts {
