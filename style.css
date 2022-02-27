@@ -144,7 +144,7 @@ footer {
   padding: 0;
 }
 
-/******Men******/
+/******Men, woman and kids******/
 
 h2,
 p {
@@ -187,7 +187,8 @@ p {
   padding-top: 0;
 }
 
-.image1product {
+.image1product,
+.image1product2 {
   position: absolute;
   object-fit: cover;
   width: 500px;
@@ -198,4 +199,32 @@ h3 {
   text-align: start;
   padding-left: 49em;
   padding-top: 2em;
+}
+
+/******Men, woman and kids - produckt view******/
+
+h3 {
+  text-align: start;
+  padding-left: 49em;
+  padding-top: 2em;
+}
+
+.text {
+  text-align: start;
+  padding-left: 55em;
+}
+
+.flex-container4,
+.flex-container_text {
+  display: flex;
+}
+
+.flex-container4 {
+  position: absolute;
+}
+
+.flex-container_text {
+}
+
+.imageproduct2 {
 }
